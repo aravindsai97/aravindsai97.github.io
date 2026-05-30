@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: research &amp; projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected work — the tools I've built and the studies behind them. Each links to a paper, demo, or code where available.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [research, tools]
 horizontal: false
 ---
 

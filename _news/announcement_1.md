@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-04-15 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+<!-- CONTENT-TODO: replace with your real news. -->
+New paper on **process-framed automated feedback** accepted to *[Conference / Journal]*. 🎉
