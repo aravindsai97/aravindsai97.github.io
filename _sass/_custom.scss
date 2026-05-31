@@ -251,12 +251,17 @@ html[data-theme="dark"] .research-areas .rtag {
   }
 }
 
-// UW–Madison logo in the profile panel.
+// UW–Madison logo in the profile panel (white-bg logo → framed as a small white card).
 .profile .uw-logo {
-  max-width: 150px;
-  height: auto;
-  margin: 0.4rem auto 0.2rem;
   display: block;
+  width: 60%;
+  max-width: 170px;
+  height: auto;
+  margin: 0.5rem auto 0.3rem;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--global-divider-color);
 }
 
 // --- Books page: topic shelves with covers + a "my thoughts" note ----------

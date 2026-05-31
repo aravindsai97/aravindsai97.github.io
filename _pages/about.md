@@ -10,9 +10,7 @@ profile:
   image_circular: true # head-and-shoulders crop — looks clean as a circle
   more_info: >
     <p>PhD in Curriculum &amp; Instruction</p>
-    <p class="uw-affiliation">University of Wisconsin&ndash;Madison</p>
-    <!-- UW LOGO: drop the file at assets/img/uw-madison-logo.png, then uncomment the next line -->
-    <!-- <p><img src="/assets/img/uw-madison-logo.png" alt="University of Wisconsin–Madison" class="uw-logo"></p> -->
+    <p><img src="/assets/img/uw-madison-logo.png" alt="University of Wisconsin–Madison" class="uw-logo"></p>
     <p class="profile-socials">
       <a href="mailto:assarathy@wisc.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=v-cwu7EAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
