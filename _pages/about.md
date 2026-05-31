@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>Ph.D. Student, Curriculum &amp; Instruction</p>
     <p>University of Wisconsin&ndash;Madison</p>
-    <p><a href="mailto:saisarathy97@gmail.com">saisarathy97@gmail.com</a></p>
+    <p><a href="mailto:assarathy@wisc.edu">assarathy@wisc.edu</a></p>
 
 selected_papers: true # shows papers marked selected={true} from papers.bib
 social: true # shows the contact/social icons from _data/socials.yml
@@ -53,4 +53,4 @@ A quick map of the methods and tools I bring to a problem — useful if you're a
 ## Let's work together
 
 I'm **open to research collaborations, ed-tech partnerships, and industry roles** where learning science meets product.
-The fastest way to reach me is **[email](mailto:saisarathy97@gmail.com)**. You can also find my work on the links below, or [download my CV](/cv/).
+The fastest way to reach me is **[email](mailto:assarathy@wisc.edu)**. You can also find my work on the links below, or [download my CV](/cv/).

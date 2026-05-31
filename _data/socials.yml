@@ -2,7 +2,7 @@
 # Icons render in the order defined here (jekyll-socials plugin).
 
 cv_pdf: /assets/pdf/example_pdf.pdf # placeholder — swap for your real CV at /assets/pdf/cv.pdf
-email: saisarathy97@gmail.com
+email: assarathy@wisc.edu
 scholar_userid: v-cwu7EAAAAJ # Google Scholar
 linkedin_username: aravind-sai-sarathy # the slug after /in/ in your LinkedIn URL
 # orcid_id: 0000-0000-0000-0000   # uncomment + fill when you have one

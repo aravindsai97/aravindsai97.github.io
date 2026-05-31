@@ -62,10 +62,17 @@ a {
   text-underline-offset: 0.18em;
 }
 
-// --- Methods/skills "chips": inline code on content pages ------------------
-// (Avoids code blocks, which live inside <pre>.)
-.post-content :not(pre) > code,
-#about :not(pre) > code {
+// --- Affiliation block under the photo: match body sans (theme defaults to monospace) ---
+.profile .more-info {
+  font-family: $font-sans;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+// --- Methods/skills "chips": inline code in page/post content --------------
+// The about body renders inside .post; (avoids code blocks, which live in <pre>).
+.post :not(pre) > code {
   background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
   color: var(--global-text-color);
   border: 1px solid color-mix(in srgb, var(--global-theme-color) 28%, transparent);
