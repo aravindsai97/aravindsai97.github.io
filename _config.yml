@@ -237,7 +237,6 @@ exclude:
   - _books/ # demo bookshelf
   - _teachings/ # demo teaching collection
   - _pages/blog.md
-  - _pages/books.md
   - _pages/dropdown.md # the "submenus" dropdown (bookshelf/blog)
   - _pages/repositories.md
   - _pages/profiles.md
@@ -530,10 +529,10 @@ third_party_libraries:
         dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
   google_fonts:
-    # Editorial pairing: Fraunces (high-contrast serif headings) + Inter (clean sans body).
+    # Headings + nav: Josefin Sans (geometric display). Body: Inter (readable).
     # Roboto/Roboto Slab kept as fallbacks the theme references internally.
     url:
-      fonts: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@100;300;400;500;700&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@100;300;400;500;700&display=swap"
   highlightjs:
     integrity:
       css:

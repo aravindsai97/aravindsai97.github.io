@@ -15,9 +15,10 @@ html[data-theme="dark"] {
   --global-hover-color: #8be3da;
 }
 
-// --- Typography: high-contrast serif headings + clean sans body ------------
-$font-serif: "Fraunces", "Roboto Slab", Georgia, serif;
-$font-sans: "Inter", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+// --- Typography: Josefin Sans for headings/nav + Inter for body ------------
+$font-display: "Josefin Sans", "Inter", sans-serif; // headings, nav, name
+$font-sans: "Inter", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; // body
+$font-serif: $font-display; // alias kept so existing heading rules below still apply
 
 body {
   font-family: $font-sans;
@@ -123,7 +124,96 @@ a {
   }
 }
 
-// --- Profile image: softer, framed -----------------------------------------
+// --- Page background + headshot panel --------------------------------------
+:root {
+  --page-bg: #faf9f7; // soft warm off-white for the page
+  --profile-bg: #eef5f4; // light teal-tinted panel behind the headshot
+  --profile-border: #cde4e0;
+}
+html[data-theme="dark"] {
+  --page-bg: #1d1e20;
+  --profile-bg: #26292d;
+  --profile-border: #3a3d42;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+// Fixed navbar blends with the page; menu pushed to the top-right in the display font.
+nav#navbar.navbar {
+  background-color: var(--page-bg);
+  font-family: $font-display;
+
+  .navbar-collapse-main {
+    justify-content: flex-end;
+  }
+  .navbar-menu-list {
+    margin-left: auto;
+  }
+  .nav-item .nav-link {
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+}
+
+// --- Research areas: colored bubble tags -----------------------------------
+.research-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0.8rem 0 1.1rem;
+}
+.research-areas .rtag {
+  display: inline-block;
+  padding: 0.38em 0.95em;
+  border-radius: 999px;
+  font-family: $font-sans;
+  font-size: 0.92rem;
+  font-weight: 600;
+  border: 1px solid;
+  line-height: 1.2;
+}
+.research-areas .rtag-1 {
+  color: #0d7d74;
+  background: rgba(13, 125, 116, 0.1);
+  border-color: rgba(13, 125, 116, 0.4);
+} // teal
+.research-areas .rtag-2 {
+  color: #b45309;
+  background: rgba(180, 83, 9, 0.1);
+  border-color: rgba(180, 83, 9, 0.4);
+} // amber
+.research-areas .rtag-3 {
+  color: #4f46e5;
+  background: rgba(79, 70, 229, 0.1);
+  border-color: rgba(79, 70, 229, 0.4);
+} // indigo
+.research-areas .rtag-4 {
+  color: #be185d;
+  background: rgba(190, 24, 93, 0.1);
+  border-color: rgba(190, 24, 93, 0.4);
+} // rose
+html[data-theme="dark"] .research-areas .rtag {
+  filter: brightness(1.35);
+}
+
+// Breathing room below the fixed navbar so the hero title isn't jammed at the top.
+.post-header {
+  padding-top: 1.75rem;
+}
+
+// Headshot + affiliation sit together in one distinct, softly-bordered panel.
+.profile {
+  background: var(--profile-bg);
+  border: 1px solid var(--profile-border);
+  border-radius: 16px;
+  padding: 1rem 1rem 0.85rem;
+}
 .profile img {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: none; // single clean panel edge — no clashing borders/shadows
+}
+.profile .more-info {
+  padding: 0 0.15rem;
 }

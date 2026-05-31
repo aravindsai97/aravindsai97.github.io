@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # Your positioning line — the one sentence people remember. Tweak the wording anytime.
 subtitle: <strong>Learning Sciences &middot; Metacognition &middot; Educational Technology</strong> — I design pedagogies and learning technologies for meaningful, data-informed learning.
@@ -36,19 +36,16 @@ I'm always glad to talk with **collaborators, educators, and ed-tech teams** abo
 
 ## Research
 
-I work across three connected threads:
+I work across these connected areas:
 
-1. **Learning analytics applications** <!-- CONTENT-TODO: add your 1–2 line description -->
-2. **Systems thinking education** <!-- CONTENT-TODO: add your 1–2 line description -->
-3. **Metacognition &amp; self-regulated learning** <!-- CONTENT-TODO: add your 1–2 line description -->
+<div class="research-areas">
+  <span class="rtag rtag-1">Learning Analytics</span>
+  <span class="rtag rtag-2">Systems Thinking</span>
+  <span class="rtag rtag-3">Instructional Design</span>
+  <span class="rtag rtag-4">Metacognition &amp; Self-Regulated Learning</span>
+</div>
 
 [See the projects behind this work below ↓](/projects/)
-
-## How I work
-
-A quick map of the methods and tools I bring to a problem — useful if you're a non-specialist scanning for fit:
-
-`learning analytics` · `LLMs / applied AI` · `mixed methods` · `randomized experiments (A/B)` · `UX & design research` · `data visualization` · `Python / R` · `classroom field studies`
 
 ## Let's work together
 

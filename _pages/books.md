@@ -1,13 +1,25 @@
 ---
-layout: book-shelf
-title: bookshelf
+layout: page
+title: Books
 permalink: /books/
-nav: false
-collection: books
+nav: true
+nav_order: 3
+description: Books that have shaped how I think about learning, design, and systems.
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
+> A book is proof that humans are capable of working magic.
 >
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+> — Carl Sagan, *Cosmos* (1980)
 
-## Books that I am reading, have read, or will read
+<!-- CONTENT-TODO: replace with your real list — group however you like (reading now / shaped my thinking / want to read). -->
+
+### Shaping my thinking
+- *Mindstorms* — Seymour Papert
+- *The Reflective Practitioner* — Donald Schön
+- *Thinking in Systems* — Donella Meadows
+
+### Reading now
+- *[Title]* — *[Author]*
+
+### On my list
+- *[Title]* — *[Author]*
