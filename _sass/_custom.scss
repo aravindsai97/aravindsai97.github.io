@@ -273,8 +273,8 @@ html[data-theme="dark"] .research-areas .rtag {
   margin: 0.9rem auto 0.3rem;
 }
 .profile .uw-crest {
-  width: 24%;
-  max-width: 80px;
+  width: 42%;
+  max-width: 110px; // enlarged (was ~80px). Easy to bump: ~90 subtle / 110 balanced / 140 prominent.
 }
 
 // --- Books page: topic shelves with covers + a "my thoughts" note ----------

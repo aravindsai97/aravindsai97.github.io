@@ -16,7 +16,7 @@ profile:
       <a href="https://www.linkedin.com/in/aravind-sai-sarathy/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
       <a href="/cv/" title="CV"><i class="fa-solid fa-file-lines"></i></a>
     </p>
-    <p><img src="/assets/img/uw-crest-transparent.png" alt="University of Wisconsin–Madison" class="uw-logo uw-crest"></p>
+    <p><img src="/assets/img/uw-crest-mark.png" alt="University of Wisconsin–Madison" class="uw-logo uw-crest"></p>
 
 selected_papers: false # no fabricated papers; turn on once real selected={true} entries exist
 social: false # socials now live under the headshot (in more_info), not at the page bottom
