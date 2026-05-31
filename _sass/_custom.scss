@@ -140,10 +140,16 @@ body {
   background-color: var(--page-bg);
 }
 
-// Fixed navbar blends with the page; menu pushed to the top-right in the display font.
+// Fixed navbar: fully opaque (no content bleed-through on scroll), menu pushed top-right.
 nav#navbar.navbar {
   background-color: var(--page-bg);
+  opacity: 1; // theme default is 0.95, which let content "blind" through on scroll
   font-family: $font-display;
+
+  // Remove the redundant name brand (the About page already covers it).
+  .navbar-brand.title {
+    display: none;
+  }
 
   .navbar-collapse-main {
     justify-content: flex-end;
@@ -155,6 +161,14 @@ nav#navbar.navbar {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     font-weight: 600;
+  }
+
+  // Search button: drop the "ctrl k" label, keep just the magnifying glass.
+  #search-toggle .nav-link {
+    font-size: 0;
+  }
+  #search-toggle .nav-link i {
+    font-size: 1rem;
   }
 }
 

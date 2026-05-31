@@ -4,22 +4,17 @@ title: Books
 permalink: /books/
 nav: true
 nav_order: 3
-description: Books that have shaped how I think about learning, design, and systems.
+description: Favourite quotes, what I'm reading, and what's on my list.
 ---
 
-> A book is proof that humans are capable of working magic.
->
-> — Carl Sagan, *Cosmos* (1980)
+## Favourite quotes
 
-<!-- CONTENT-TODO: replace with your real list — group however you like (reading now / shaped my thinking / want to read). -->
+<!-- Awaiting Aravind's content — do not fill without approval. -->
 
-### Shaping my thinking
-- *Mindstorms* — Seymour Papert
-- *The Reflective Practitioner* — Donald Schön
-- *Thinking in Systems* — Donella Meadows
+## Currently reading
 
-### Reading now
-- *[Title]* — *[Author]*
+<!-- Awaiting Aravind's content — do not fill without approval. -->
 
-### On my list
-- *[Title]* — *[Author]*
+## On my list
+
+<!-- Awaiting Aravind's content — do not fill without approval. -->

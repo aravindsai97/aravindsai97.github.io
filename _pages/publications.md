@@ -2,28 +2,18 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Peer-reviewed work, presentations, and manuscripts in progress.
+description: Work in progress and presented work.
 nav: true
 nav_order: 5
 ---
 
-<!-- _pages/publications.md -->
-
 ## Work in progress
 
-<!-- CONTENT-TODO: list manuscripts under review or in preparation. Examples below — edit/replace. -->
+<!-- Awaiting Aravind's content — do not fill without approval. -->
 
-- *[Manuscript title]* — under review at *[venue]*.
-- *[Project title]* — in preparation.
+## Presented
 
-## Published &amp; presented
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+- **Figma-infused curricula in a Global Food Production and Health course.** Poster, CLS 2025 (MIT Media Lab).
+- **Note-taker to Note-maker: A constructionist approach to note-taking.** Poster, PML 2025 (University of Wisconsin–Madison).
+- **A constructionist approach to note-taking.** Paper presentation, Constructionism 2025 (University of Zurich, Switzerland).
+- **Cultivating Systems Thinkers in Agro-classrooms.** Paper presentation, NACTA 2025 (University of Alberta, Canada).

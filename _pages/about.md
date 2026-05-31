@@ -14,7 +14,7 @@ profile:
     <p>University of Wisconsin&ndash;Madison</p>
     <p><a href="mailto:assarathy@wisc.edu">assarathy@wisc.edu</a></p>
 
-selected_papers: true # shows papers marked selected={true} from papers.bib
+selected_papers: false # no fabricated papers; turn on once real selected={true} entries exist
 social: true # shows the contact/social icons from _data/socials.yml
 
 announcements:
