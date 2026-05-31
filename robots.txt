@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yourname.com/sitemap.xml
+Sitemap: https://aravindsai97.github.io/Portfolio-website/sitemap.xml
