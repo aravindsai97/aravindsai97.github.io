@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # head-and-shoulders crop — looks clean as a circle
   more_info: >
-    <p>Ph.D. Student, Curriculum &amp; Instruction</p>
+    <p>PhD in Curriculum &amp; Instruction</p>
     <p class="uw-affiliation">University of Wisconsin&ndash;Madison</p>
     <!-- UW LOGO: drop the file at assets/img/uw-madison-logo.png, then uncomment the next line -->
     <!-- <p><img src="/assets/img/uw-madison-logo.png" alt="University of Wisconsin–Madison" class="uw-logo"></p> -->
@@ -34,7 +34,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a 3rd year Ph.D. student in the Department of **Curriculum &amp; Instruction** at the **University of Wisconsin–Madison**. My research sits at the intersection of **learning sciences, metacognition, and educational technologies**. Drawing from constructionist pedagogies, instructional design, and data science, I design pedagogical approaches and learning technologies that foster meaningful, **data-informed learning experiences** in both formal and informal settings. I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science insight into experiences and tools that people actually use.
+I'm a 3rd year Ph.D. student in the Department of **Curriculum &amp; Instruction** at the **University of Wisconsin–Madison**. My research sits at the intersection of **learning sciences, metacognition, and educational technologies**. Drawing from **constructionist pedagogies, instructional design, and data science**, I design pedagogical approaches and learning technologies that foster **meaningful, data-informed learning experiences** in both formal and informal settings. I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science insight into experiences and tools that people actually use.
 
 ## Research
 

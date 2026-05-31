@@ -17,7 +17,7 @@ html[data-theme="dark"] {
 
 // --- Typography: Josefin Sans for headings/nav + Inter for body ------------
 $font-display: "Josefin Sans", "Inter", sans-serif; // headings, nav, name
-$font-sans: "Inter", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; // body
+$font-sans: "Josefin Sans", "Inter", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; // all body text now Josefin Sans
 $font-serif: $font-display; // alias kept so existing heading rules below still apply
 
 body {
