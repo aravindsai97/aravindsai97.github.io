@@ -1,0 +1,18 @@
+# Topic shelves for the Books page.
+# For each book: title, author, cover (path under /assets/img/book_covers/), thoughts.
+# Aravind provides titles per topic; Claude fetches the cover images.
+shelves:
+  - topic: Entrepreneurship
+    books: []
+  - topic: Game Theory
+    books: []
+  - topic: Constructionism
+    books: []
+  - topic: Philosophy
+    books: []
+  - topic: Systems Thinking
+    books: []
+  - topic: Strategic Management
+    books: []
+  - topic: Spirituality
+    books: []

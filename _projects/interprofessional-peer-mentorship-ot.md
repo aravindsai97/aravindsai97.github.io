@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Interprofessional Peer Mentorship"
+title: "Inter-professional Peer Mentorship"
 description: A catalyst for community building in occupational therapy education.
-img: assets/img/1.jpg # ACTION: replace with a real image (give me the path)
+# img: add your image at assets/img/<file> and set the path here
 importance: 3
 category: selected works
 related_publications: false

@@ -2,11 +2,10 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Research projects and pedagogical innovations. I am first author on the work below.
+description: Research projects and pedagogical innovations.
 nav: true
 nav_order: 2
-# "In Progress" is wired and will appear (first) as soon as you add ongoing work.
-display_categories: [selected works]
+display_categories: [selected works, in progress]
 horizontal: false
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Note-taker to Note-maker"
-description: A constructionist approach to note-taking — note-*making* as making, innovation, and metacognitive practice.
-img: assets/img/3.jpg # ACTION: replace with a real image (give me the path)
+title: "Constructionist Note-taking"
+description: Note-taking reframed as an active, constructionist practice of note-*making*.
+# img: add your image at assets/img/<file> and set the path here
 importance: 1
 category: selected works
 related_publications: false

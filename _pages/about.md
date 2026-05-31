@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-# Your positioning line — the one sentence people remember. Tweak the wording anytime.
-subtitle: <strong>Learning Sciences &middot; Metacognition &middot; Educational Technology</strong> — I design pedagogies and learning technologies for meaningful, data-informed learning.
+subtitle: # positioning line removed by request
 
 profile:
   align: right
@@ -11,11 +10,18 @@ profile:
   image_circular: true # head-and-shoulders crop — looks clean as a circle
   more_info: >
     <p>Ph.D. Student, Curriculum &amp; Instruction</p>
-    <p>University of Wisconsin&ndash;Madison</p>
-    <p><a href="mailto:assarathy@wisc.edu">assarathy@wisc.edu</a></p>
+    <p class="uw-affiliation">University of Wisconsin&ndash;Madison</p>
+    <!-- UW LOGO: drop the file at assets/img/uw-madison-logo.png, then uncomment the next line -->
+    <!-- <p><img src="/assets/img/uw-madison-logo.png" alt="University of Wisconsin–Madison" class="uw-logo"></p> -->
+    <p class="profile-socials">
+      <a href="mailto:assarathy@wisc.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=v-cwu7EAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/aravind-sai-sarathy/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="/cv/" title="CV"><i class="fa-solid fa-file-lines"></i></a>
+    </p>
 
 selected_papers: false # no fabricated papers; turn on once real selected={true} entries exist
-social: true # shows the contact/social icons from _data/socials.yml
+social: false # socials now live under the headshot (in more_info), not at the page bottom
 
 announcements:
   enabled: true
@@ -28,11 +34,7 @@ latest_posts:
   limit: 3
 ---
 
-I'm a third-year Ph.D. student in the Department of **Curriculum &amp; Instruction** at the **University of Wisconsin–Madison**. My research sits at the intersection of **learning sciences, metacognition, and educational technologies**.
-
-Drawing from constructionist pedagogies, data science, and instructional design, I design pedagogical approaches and learning technologies that foster meaningful, **data-informed learning experiences** in both formal and informal settings.
-
-I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science insight into experiences and tools that people actually use.
+I'm a 3rd year Ph.D. student in the Department of **Curriculum &amp; Instruction** at the **University of Wisconsin–Madison**. My research sits at the intersection of **learning sciences, metacognition, and educational technologies**. Drawing from constructionist pedagogies, instructional design, and data science, I design pedagogical approaches and learning technologies that foster meaningful, **data-informed learning experiences** in both formal and informal settings. I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science insight into experiences and tools that people actually use.
 
 ## Research
 
@@ -46,8 +48,3 @@ I work across these connected areas:
 </div>
 
 [See the projects behind this work below ↓](/projects/)
-
-## Let's work together
-
-I'm **open to research collaborations, ed-tech partnerships, and industry roles** where learning science meets product.
-The fastest way to reach me is **[email](mailto:assarathy@wisc.edu)**. You can also find my work on the links below, or [download my CV](/cv/).

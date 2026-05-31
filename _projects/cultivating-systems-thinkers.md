@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Cultivating Systems Thinkers"
+title: "Systems Thinking Curriculum"
 description: Pedagogical and Figma-infused curricular innovations that foster systems thinking in a Global Food Production &amp; Health course.
-img: assets/img/7.jpg # ACTION: replace with a real image (give me the path)
+# img: add your image at assets/img/<file> and set the path here
 importance: 2
 category: selected works
 related_publications: false

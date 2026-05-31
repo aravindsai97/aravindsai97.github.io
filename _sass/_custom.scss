@@ -138,6 +138,7 @@ html[data-theme="dark"] {
 
 body {
   background-color: var(--page-bg);
+  padding-top: 0; // static navbar — drop the theme's fixed-navbar offset
 }
 
 // Fixed navbar: fully opaque (no content bleed-through on scroll), menu pushed top-right.
@@ -213,9 +214,9 @@ html[data-theme="dark"] .research-areas .rtag {
   filter: brightness(1.35);
 }
 
-// Breathing room below the fixed navbar so the hero title isn't jammed at the top.
+// A little breathing room above the page title.
 .post-header {
-  padding-top: 1.75rem;
+  padding-top: 1rem;
 }
 
 // Headshot + affiliation sit together in one distinct, softly-bordered panel.
@@ -230,4 +231,87 @@ html[data-theme="dark"] .research-areas .rtag {
 }
 .profile .more-info {
   padding: 0 0.15rem;
+}
+
+// Social links hovering beneath the headshot (inside the profile panel).
+.profile .profile-socials {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+
+  a {
+    color: var(--global-text-color-light);
+    transition: color 0.15s ease;
+  }
+  a:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+// UW–Madison logo in the profile panel.
+.profile .uw-logo {
+  max-width: 150px;
+  height: auto;
+  margin: 0.4rem auto 0.2rem;
+  display: block;
+}
+
+// --- Books page: topic shelves with covers + a "my thoughts" note ----------
+.book-topic {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+.shelf-empty {
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin: 0 0 0.5rem;
+}
+.book-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.4rem 1.2rem;
+  margin: 0.4rem 0 1rem;
+}
+.book {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.book-cover {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+  background: var(--global-card-bg-color);
+}
+.book-cover--placeholder {
+  display: block;
+  border: 1px dashed var(--global-divider-color);
+}
+.book-meta {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.book-title {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+.book-author {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.1rem;
+}
+.book-thoughts {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--global-divider-color);
 }
