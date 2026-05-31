@@ -265,16 +265,17 @@ html[data-theme="dark"] .research-areas .rtag {
   }
 }
 
-// UW–Madison logo in the profile panel.
-// mix-blend-mode: multiply drops the logo's white background into the light panel
-// (no visible white box), and extra top margin pushes it down from the affiliation text.
+// UW–Madison crest in the profile panel (bottom of the stack: title → links → crest).
+// mix-blend-mode: multiply drops the crest's white background into the light panel.
 .profile .uw-logo {
   display: block;
-  width: 72%;
-  max-width: 190px;
   height: auto;
-  margin: 1.5rem auto 0.6rem;
+  margin: 0.9rem auto 0.3rem;
   mix-blend-mode: multiply;
+}
+.profile .uw-crest {
+  width: 26%;
+  max-width: 84px;
 }
 
 // --- Books page: topic shelves with covers + a "my thoughts" note ----------

@@ -10,13 +10,13 @@ profile:
   image_circular: true # head-and-shoulders crop — looks clean as a circle
   more_info: >
     <p>PhD in Curriculum &amp; Instruction</p>
-    <p><img src="/assets/img/uw-madison-logo.png" alt="University of Wisconsin–Madison" class="uw-logo"></p>
     <p class="profile-socials">
       <a href="mailto:assarathy@wisc.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=v-cwu7EAAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
       <a href="https://www.linkedin.com/in/aravind-sai-sarathy/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
       <a href="/cv/" title="CV"><i class="fa-solid fa-file-lines"></i></a>
     </p>
+    <p><img src="/assets/img/uw-crest.png" alt="University of Wisconsin–Madison" class="uw-logo uw-crest"></p>
 
 selected_papers: false # no fabricated papers; turn on once real selected={true} entries exist
 social: false # socials now live under the headshot (in more_info), not at the page bottom
