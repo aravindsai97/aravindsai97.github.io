@@ -1,69 +1,81 @@
-# CONTENT-TODO: replace all placeholder text with your real CV.
-# This RenderCV-format file drives the /cv/ page (and an optional auto-generated PDF).
+# Drives the /cv/ page. (Phone number intentionally omitted from the public page — add if you want it.)
 cv:
-  name: Aravind Sai
-  label: Learning Scientist &amp; Educational Technologist
+  name: Aravind Sai Sarathy
+  label: Ph.D. Student, Curriculum &amp; Instruction
   email: saisarathy97@gmail.com
-  location: Your City, Country
+  location: Madison, WI, USA
   image: ""
   summary: >
-    Learning scientist and educational technologist who designs AI-driven learning tools
-    and runs the studies that show whether they work. I turn learning-science evidence into
-    technology that improves outcomes, equity, and the day-to-day experience of learning.
+    I build and design learning technologies by leveraging learning sciences and
+    curriculum design principles.
 
   social_networks:
     - network: LinkedIn
-      username: your-linkedin-handle
-    - network: GitHub
-      username: your-github-handle
+      username: aravind-sai-sarathy
 
   sections:
     Education:
-      - institution: Your University
-        location: City, Country
-        area: Learning Sciences
-        studyType: Ph.D. (in progress)
-        start_date: 2021
+      - institution: University of Wisconsin–Madison
+        location: Madison, WI
+        area: Curriculum &amp; Instruction
+        studyType: Doctor of Philosophy (Ph.D.)
+        start_date: 2024-09
         end_date: present
         highlights:
-          - "Dissertation: designing and evaluating AI tutors for productive struggle."
-          - "Advisor: [Advisor Name]."
+          - "Coursework: Intro to Qualitative Research; Constructionism; Educational Psychology (minor certificate); Graduate Certificate in Entrepreneurship."
 
-      - institution: Prior University
-        location: City, Country
-        area: "[Your field]"
-        studyType: M.S. / B.S.
-        start_date: 2017
-        end_date: 2021
+      - institution: University of Wisconsin–Madison
+        location: Madison, WI
+        area: Curriculum &amp; Instruction
+        studyType: Master of Science (M.S.)
+        start_date: 2022-06
+        end_date: 2024-05
         highlights:
-          - "Relevant coursework or honors."
+          - "Coursework: Learning Sciences I & II; Theory & Design of Curriculum; Game Design I."
 
     Experience:
-      - company: Ed-Tech Company / Lab
-        position: Research Intern
-        location: City (or Remote)
-        start_date: 2024
-        end_date: 2024
-        summary: Applied learning analytics to a production learning product.
+      - company: Center for Teaching, Learning, and Mentoring (CTLM), UW–Madison
+        position: Project Assistant
+        location: Madison, WI
+        start_date: 2022-08
+        end_date: present
+        summary: Supporting UW–Madison faculty and staff in their teaching journeys.
         highlights:
-          - "Shipped a feature informed by an A/B test reaching N learners."
+          - Facilitated instructional-technology resources and classroom-management support for instructors in active-learning settings.
+          - Developed, redesigned, and maintained Canvas LMS courses in collaboration with instructors and instructional designers.
+          - Assisted instructional designers with media production and curriculum development for UW online courses.
 
-    Selected Awards:
-      - title: Best Paper Award
-        date: 2025
-        awarder: "[Conference]"
-        summary: For work on equity audits in educational technology.
+      - company: BYJU'S Learning
+        position: Senior Content Development Associate
+        location: India
+        start_date: 2020-05
+        end_date: 2022-05
+        highlights:
+          - Instructed 200+ K–12 students across lecture-based and flipped classrooms (Chemistry, Mathematics).
+          - Managed and designed K–10 curriculum resources — content strategy, course design, and e-learning modules in LMS.
+          - Co-designed interactive simulations that increased student engagement by 15% during COVID-19.
+
+    Presentations and Posters:
+      - title: Figma-infused Curricula in a Global Food Production and Health Course
+        date: 2025-09
+        summary: Poster, CLS 2025 — MIT Media Lab.
+
+      - title: "Note-taker to Note-maker: A Constructionist Approach to Note-Taking"
+        date: 2025-08
+        summary: Poster, PML 2025 — University of Wisconsin–Madison.
+
+      - title: A Constructionist Approach to Note-Taking
+        date: 2025-06
+        summary: Paper presentation, Constructionism 2025 — University of Zurich, Switzerland.
+
+      - title: Cultivating Systems Thinkers in Agro-classrooms
+        date: 2025-06
+        summary: Paper presentation, NACTA 2025 — University of Alberta, Edmonton, Canada.
 
     Skills:
-      - name: Methods
-        keywords: "Randomized experiments, mixed methods, learning analytics, UX research"
-      - name: Tools
-        keywords: "Python, R, SQL, LLM/applied AI, data visualization"
-
-    Languages:
-      - name: English
-        summary: "Fluent"
+      - name: Core
+        keywords: "Instructional design, Curriculum & pedagogy, Assessment & evaluation, Research & development, Project management, Teaching"
 
     Interests:
       - name: Focus areas
-        keywords: "AI in education, learning analytics, equity in ed-tech, HCI"
+        keywords: "Instructional design, Learning analytics, Product development, Research & development, Entrepreneurship, Teaching"

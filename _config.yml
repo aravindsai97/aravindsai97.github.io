@@ -3,19 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-# CONTENT-TODO: replace with your real name (see FILL-IN-GUIDE.md)
 first_name: Aravind
 middle_name: ""
-last_name: Sai
+last_name: Sai Sarathy
 contact_note: >
   Email is the best way to reach me — I usually reply within a couple of days.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Learning Scientist and Educational Technologist designing AI-driven tools that
-  measurably improve how people learn. Research, projects, and publications.
+  Aravind Sai Sarathy — PhD researcher in Learning Sciences, metacognition, and educational
+  technology at UW–Madison, designing pedagogies and tools for data-informed learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: learning sciences, educational technology, ed-tech, AI in education, learning analytics, HCI, researcher portfolio
+keywords: learning sciences, metacognition, educational technology, constructionism, instructional design, data science in education, UW-Madison, Aravind Sai Sarathy
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -342,9 +341,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  # CONTENT-TODO: set these to your name so your name is underlined in citations.
-  last_name: [Sai]
-  first_name: [Aravind, A.]
+  # Matches your name in citations so it gets underlined. Variations covered.
+  last_name: [Sai Sarathy, Sarathy]
+  first_name: [Aravind, Aravind Sai, A.]
 
   style: apa
   locale: en

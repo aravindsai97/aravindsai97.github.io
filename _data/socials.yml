@@ -1,11 +1,10 @@
 # Contact + social links shown on the About page and in search.
-# Icons are rendered in the order defined here (jekyll-socials plugin).
-# CONTENT-TODO: replace every value below with your own. Delete any line you don't use.
+# Icons render in the order defined here (jekyll-socials plugin).
 
-cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF (drop the file at assets/pdf/cv.pdf)
-email: saisarathy97@gmail.com # your email address
-scholar_userid: qc6CJjYAAAAJ # CONTENT-TODO: your Google Scholar ID (from your Scholar profile URL)
-orcid_id: 0000-0000-0000-0000 # CONTENT-TODO: your ORCID iD
-linkedin_username: your-linkedin-handle # CONTENT-TODO: the slug after /in/ in your LinkedIn URL
-github_username: your-github-handle # CONTENT-TODO: your GitHub username
-rss_icon: false # set true if you publish a blog and want the RSS icon
+cv_pdf: /assets/pdf/example_pdf.pdf # placeholder — swap for your real CV at /assets/pdf/cv.pdf
+email: saisarathy97@gmail.com
+scholar_userid: v-cwu7EAAAAJ # Google Scholar
+linkedin_username: aravind-sai-sarathy # the slug after /in/ in your LinkedIn URL
+# orcid_id: 0000-0000-0000-0000   # uncomment + fill when you have one
+# github_username: your-handle    # uncomment + fill if you want a GitHub icon
+rss_icon: false

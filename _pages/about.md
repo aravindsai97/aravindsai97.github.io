@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-# CONTENT-TODO: this subtitle is your positioning line — the one sentence people remember.
-subtitle: <strong>Learning Scientist + Educational Technologist</strong> — I design and study AI-driven tools that measurably improve how people learn.
+# Your positioning line — the one sentence people remember. Tweak the wording anytime.
+subtitle: <strong>Learning Sciences &middot; Metacognition &middot; Educational Technology</strong> — I design pedagogies and learning technologies for meaningful, data-informed learning.
 
 profile:
   align: right
-  image: prof_pic.jpg # CONTENT-TODO: drop your headshot at assets/img/prof_pic.jpg
-  image_circular: true # circular crop reads more personable for a portfolio
+  image: prof_pic.jpg
+  image_circular: true # head-and-shoulders crop — looks clean as a circle
   more_info: >
-    <p>Ph.D. Candidate, Learning Sciences</p>
-    <p>Your University</p>
+    <p>Ph.D. Student, Curriculum &amp; Instruction</p>
+    <p>University of Wisconsin&ndash;Madison</p>
     <p><a href="mailto:saisarathy97@gmail.com">saisarathy97@gmail.com</a></p>
 
 selected_papers: true # shows papers marked selected={true} from papers.bib
@@ -28,23 +28,21 @@ latest_posts:
   limit: 3
 ---
 
-<!-- CONTENT-TODO: rewrite this whole biography in your own voice. Keep it scannable: lead with who you are and the value you create, then the credentials. -->
+I'm a third-year Ph.D. student in the Department of **Curriculum &amp; Instruction** at the **University of Wisconsin–Madison**. My research sits at the intersection of **learning sciences, metacognition, and educational technologies**.
 
-I'm a learning scientist and educational technologist working at the intersection of **AI, human–computer interaction, and the science of learning**. I build classroom-ready tools — and run the studies that show whether they actually help people learn. My goal is simple: turn research insight into technology that makes learning more effective, more equitable, and more humane.
+Drawing from constructionist pedagogies, data science, and instructional design, I design pedagogical approaches and learning technologies that foster meaningful, **data-informed learning experiences** in both formal and informal settings.
 
-I'm currently a Ph.D. candidate at *Your University*, where I partner with teachers, learners, and product teams to design, deploy, and rigorously evaluate educational technology in real settings. Before that, I *[one line on your prior background — degree, role, or industry experience]*.
-
-I care about getting research out of the lab. I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science evidence into products people use.
+I'm always glad to talk with **collaborators, educators, and ed-tech teams** about turning learning-science insight into experiences and tools that people actually use.
 
 ## Research
 
-I work across three connected threads. The short version of each — the "so what":
+I work across three connected threads:
 
-1. **AI tools for learning.** Designing LLM-based tutors, feedback, and authoring tools — and testing where they help, where they hurt, and for whom. *So what: usable AI that demonstrably improves learning outcomes, not just engagement.*
-2. **Learning analytics at scale.** Turning click-, text-, and process-data into signals teachers and systems can act on. *So what: early, actionable insight into who needs support — before they fall behind.*
-3. **Equity in educational technology.** Studying how ed-tech designs widen or close gaps across learners and contexts. *So what: tools that work for the learners usually left out of the pilot.*
+1. **Learning analytics applications** <!-- CONTENT-TODO: add your 1–2 line description -->
+2. **Systems thinking education** <!-- CONTENT-TODO: add your 1–2 line description -->
+3. **Metacognition &amp; self-regulated learning** <!-- CONTENT-TODO: add your 1–2 line description -->
 
-[Read more about my research and see the projects below ↓](/projects/)
+[See the projects behind this work below ↓](/projects/)
 
 ## How I work
 

@@ -2,10 +2,11 @@
 layout: page
 title: research &amp; projects
 permalink: /projects/
-description: Selected work — the tools I've built and the studies behind them. Each links to a paper, demo, or code where available.
+description: Research projects and pedagogical innovations. I am first author on the work below.
 nav: true
 nav_order: 3
-display_categories: [research, tools]
+# "In Progress" is wired and will appear (first) as soon as you add ongoing work.
+display_categories: [selected works]
 horizontal: false
 ---
 
