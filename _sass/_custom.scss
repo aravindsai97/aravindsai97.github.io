@@ -266,16 +266,15 @@ html[data-theme="dark"] .research-areas .rtag {
 }
 
 // UW–Madison crest in the profile panel (bottom of the stack: title → links → crest).
-// mix-blend-mode: multiply drops the crest's white background into the light panel.
+// The crest PNG now has a transparent background, so it sits cleanly on the panel.
 .profile .uw-logo {
   display: block;
   height: auto;
   margin: 0.9rem auto 0.3rem;
-  mix-blend-mode: multiply;
 }
 .profile .uw-crest {
-  width: 26%;
-  max-width: 84px;
+  width: 24%;
+  max-width: 80px;
 }
 
 // --- Books page: topic shelves with covers + a "my thoughts" note ----------
